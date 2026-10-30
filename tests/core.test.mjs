@@ -43,7 +43,7 @@ test('every medley song has a complete, attributed, finite learning arrangement'
  assert(SONG_CHARTS.find(s=>s.id==='axis-19').artistOverride.includes('Jill Colucci'));
 });
 test('all extra ukulele fingerings contain the required chord tones',()=>{
- const expected={A:[9,1,4],Am7:[9,0,4,7],Bb:[10,2,5],Bm:[11,2,6],D:[2,6,9],D7:[2,6,9,0],Dm:[2,5,9],Dm7:[2,5,9,0],E:[4,8,11],E7:[4,8,11,2],Eb:[3,7,10],Em:[4,7,11],G7:[7,11,2,5],Gm:[7,10,2]};
+ const expected={A7:[9,1,4,7],Dsus2:[2,4,9],A:[9,1,4],Am7:[9,0,4,7],Bb:[10,2,5],Bm:[11,2,6],D:[2,6,9],D7:[2,6,9,0],Dm:[2,5,9],Dm7:[2,5,9,0],E:[4,8,11],E7:[4,8,11,2],Eb:[3,7,10],Em:[4,7,11],G7:[7,11,2,5],Gm:[7,10,2]};
  for(const [name,tones] of Object.entries(expected)){
   const shape=CHORDS[name],actual=shape.frets.map((f,i)=>([67,60,64,69][i]+f)%12);
   assert.deepEqual([...new Set(actual)].sort((a,b)=>a-b),[...tones].sort((a,b)=>a-b),name);

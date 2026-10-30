@@ -30,6 +30,8 @@ Downloaded text, generated web assets, signing keys, SDK paths and APKs are excl
 
 ## Phone behavior
 
+Version 1.3 adds the Oldies shelf, A7 and Dsus2 diagrams, and lyric lookup for all 71 catalogue entries. It retains the existing local lyric seeds and signing key. Install over the earlier app to keep progress. New Oldies lyrics are obtained using the in-app lookup or `Pull-Oldies-Lyrics.cmd`; recording availability and matching still vary.
+
 - Four Strings uses its own app storage. Existing desktop-browser progress does not transfer automatically; use the app's backup export/import to transfer it where supported by the phone's file picker.
 - Microphone permission is requested only when the tuner is started. The tuner processes audio locally. No camera, location or broad storage permission is requested.
 - Network access supports optional lyric lookup, fonts and reference links. The app does not need an account or remote website login to open.

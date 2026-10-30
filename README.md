@@ -14,7 +14,13 @@ The native Android project and personal APK build instructions are in [mobile/RE
 
 The songbook now includes 12 independent 4/4 teaching arrangements beyond the 47-song medley: Ed Sheeran's Photograph, The A Team and Thinking Out Loud; Noah Rinker's Save My Soul, Red Bandana and Wherever I Go; Hozier's Like Real People Do, Work Song and Someone New; Vance Joy's Riptide; Noah Kahan's Stick Season; and Passenger's Let Her Go. Use the **Acoustic** songbook filter. Each song links its harmonic reference and identifies transposition, added shapes and simplifications. These are authored learning forms, not exact recording charts.
 
-`Pull-Acoustic-Lyrics.cmd` handles the 12-song shelf; `Pull-Songbook-Lyrics.cmd` covers all 59 catalogue songs. Both reuse `lyrics-output\axis` for existing progress, then prepare `lyrics-output\axis-karaoke` from agreeing cached text and timestamps. Import the prepared folder, or use `Update-Phone-Karaoke.cmd` to build a private APK with automatic practice timing. Missing/differing versions remain in `unresolved.csv`; lyric availability is not guaranteed. New commercial lyrics are not preloaded into source or the APK.
+`Pull-Acoustic-Lyrics.cmd` handles the 12-song shelf; `Pull-Songbook-Lyrics.cmd` covers all 71 catalogue songs. Both reuse `lyrics-output\axis` for existing progress, then prepare `lyrics-output\axis-karaoke` from agreeing cached text and timestamps. Import the prepared folder, or use `Update-Phone-Karaoke.cmd` to build a private APK with automatic practice timing. Missing/differing versions remain in `unresolved.csv`; lyric availability is not guaranteed. New commercial lyrics are not preloaded into source or the APK.
+
+## Oldies collection
+
+The **Oldies** filter has 14 classics: twelve new U2, Beatles, Queen, Pink Floyd, Eric Clapton and Cat Stevens arrangements, plus the existing With or Without You and Let It Be entries. The full songbook now contains 71 catalogue songs and the original practice song. Each new chart has section practice, a finite ending, a harmony reference and an explicit note about simplifications. Blackbird and Yesterday are regular 4/4 harmony studies rather than exact reproductions of their changing phrase lengths. Queen arrangements omit piano/orchestral detail.
+
+`Pull-Oldies-Lyrics.cmd` requests the 14 Oldies identities and reuses existing progress; `Pull-Songbook-Lyrics.cmd` now covers all 71. Both prepare the same private import folder. Run `Update-Phone-Karaoke.cmd` after downloading to rebuild with locally available lyrics. The Oldies pack itself adds chord accompaniments and lookup support, with no new commercial lyric corpus. A7 (0100) and Dsus2 (2200) add two verified four-string shapes, bringing the supplied chord library to 20.
 
 ## Learn and practice
 
@@ -22,7 +28,7 @@ The songbook now includes 12 independent 4/4 teaching arrangements beyond the 47
 - Verified C (0003), G (0232), Am (2000), and F (2010) shapes, string order, finger positions, and notes; mirrored left-handed diagrams.
 - Real recorded concert-ukulele chord sounds, a one-bar count-in, 35–160 BPM metronome, three strumming patterns, chord-order variations, and transposition.
 - Complete-sheet playback with section selection, looping, coaching/lyric cues, a finite ending, and two- or four-chord split bars.
-- Original researched concert-ukulele painting, interactive six-part instrument guide, and eighteen available chord shapes.
+- Original researched concert-ukulele painting, interactive six-part instrument guide, and twenty available chord shapes.
 - Finger-first studio: large numbered/color-coded fretting diagram, string and fret labels, open-string markers, barre shapes, per-finger instructions, handedness switch, and an upcoming-shape preview. The chord name is a small label and playback controls stay above the diagram.
 - Lyrics beside the hands: the original practice song and public-domain Auld Lang Syne use their saved chord cues. For any song, paste plain lyric text into the studio's **Add lyrics** editor. The current line and following lines remain visible, with previous/next buttons, all-lines navigation, and optional approximate follow at 1/2/4/8 bars per line. Manual lyric advancement remains the default for pasted text. Full commercial lyrics are not fetched automatically.
 - Reference-tone and microphone pitch tuner. Microphone audio is processed locally and capture stops when leaving the tuner or hiding the tab. HTTPS or localhost is required for microphone access.
@@ -52,7 +58,7 @@ Am F :: Your own next lyric cue
 F C G Am
 ```
 
-Every whitespace-separated token occupies one bar of 4/4. `C+G` means two beats of C and two of G; `C+G+Am+F` means one beat each. The player sounds each chord change even when a selected strum pattern has a rest. A line's words after `::` appear at its first bar. Section repetitions are 1–16. Supported imported chord names include major/minor, sevenths, diminished, augmented, suspended, and slash spellings. Finger diagrams and ukulele-voiced reference sounds cover all 18 chords used in the supplied arrangements. Other supported imported chords use a searched four-string voicing; chords without a playable supported voicing report an error before playback. Transposed known chords use the same fingering as the displayed diagram. Lyrics are cues, not syllable synchronization. Melody notation, mixed meters, arbitrary within-bar durations, live chord recognition, grading and recording synchronization are not implemented.
+Every whitespace-separated token occupies one bar of 4/4. `C+G` means two beats of C and two of G; `C+G+Am+F` means one beat each. The player sounds each chord change even when a selected strum pattern has a rest. A line's words after `::` appear at its first bar. Section repetitions are 1–16. Supported imported chord names include major/minor, sevenths, diminished, augmented, suspended, and slash spellings. Finger diagrams and ukulele-voiced reference sounds cover all 20 chords used in the supplied arrangements. Other supported imported chords use a searched four-string voicing; chords without a playable supported voicing report an error before playback. Transposed known chords use the same fingering as the displayed diagram. Lyrics are cues, not syllable synchronization. Melody notation, mixed meters, arbitrary within-bar durations, live chord recognition, grading and recording synchronization are not implemented.
 
 ## Verification
 

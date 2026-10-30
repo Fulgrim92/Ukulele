@@ -9,7 +9,7 @@
     "android:sync": "npx cap sync android",
     "android:apk": "powershell -NoProfile -File scripts/build-android.ps1",
     "test": "node --test tests/*.test.mjs",
-    "check": "node --check dist/app.js && node --check dist/core.js && node --check dist/data.js && node --check dist/visuals.js && node --check dist/song-charts.js && node --check dist/practice.js && node --check dist/lyrics.js && node --check dist/lyric-sync.js && node --check dist/ukulele-audio.js && node --check dist/neck-diagram.js"
+    "check": "node --check dist/oldies.js && node --check dist/acoustic.js && node --check dist/app.js && node --check dist/core.js && node --check dist/data.js && node --check dist/visuals.js && node --check dist/song-charts.js && node --check dist/practice.js && node --check dist/lyrics.js && node --check dist/lyric-sync.js && node --check dist/ukulele-audio.js && node --check dist/neck-diagram.js"
   },
   "dependencies": {
     "@capacitor/android": "8.6.0",

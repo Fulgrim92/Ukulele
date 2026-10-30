@@ -19,7 +19,7 @@ with zipfile.ZipFile(apk) as bundle:
         assert bundle.read(prefix + 'assets/ukulele/' + original.name) == original.read_bytes(), original.name
         checked += 1
     assert checked == 20
-    for filename in ('core.js', 'data.js', 'song-charts.js', 'acoustic.js', 'lyrics.js', 'practice.js'):
+    for filename in ('core.js', 'data.js', 'song-charts.js', 'acoustic.js', 'oldies.js', 'lyrics.js', 'practice.js'):
         assert bundle.read(prefix + filename) == (root / 'dist' / filename).read_bytes(), filename
     for filename in ('app.js', 'karaoke-timing.js', 'karaoke-ui.js', 'mobile-bootstrap.js'):
         assert bundle.read(prefix + filename) == (root / '.android-web' / filename).read_bytes(), filename

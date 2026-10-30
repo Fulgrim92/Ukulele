@@ -412,6 +412,90 @@
       "title": "Let Her Go",
       "album": "",
       "duration": null
+    },
+    {
+      "app_id": "oldies-1",
+      "artist": "U2",
+      "title": "One",
+      "album": "",
+      "duration": null
+    },
+    {
+      "app_id": "oldies-2",
+      "artist": "U2",
+      "title": "All I Want Is You",
+      "album": "",
+      "duration": null
+    },
+    {
+      "app_id": "oldies-3",
+      "artist": "U2",
+      "title": "I Still Haven’t Found What I’m Looking For",
+      "album": "",
+      "duration": null
+    },
+    {
+      "app_id": "oldies-4",
+      "artist": "The Beatles",
+      "title": "Yesterday",
+      "album": "",
+      "duration": null
+    },
+    {
+      "app_id": "oldies-5",
+      "artist": "The Beatles",
+      "title": "Hey Jude",
+      "album": "",
+      "duration": null
+    },
+    {
+      "app_id": "oldies-6",
+      "artist": "The Beatles",
+      "title": "Blackbird",
+      "album": "",
+      "duration": null
+    },
+    {
+      "app_id": "oldies-7",
+      "artist": "Queen",
+      "title": "Love of My Life",
+      "album": "",
+      "duration": null
+    },
+    {
+      "app_id": "oldies-8",
+      "artist": "Queen",
+      "title": "Who Wants to Live Forever",
+      "album": "",
+      "duration": null
+    },
+    {
+      "app_id": "oldies-9",
+      "artist": "Queen",
+      "title": "These Are the Days of Our Lives",
+      "album": "",
+      "duration": null
+    },
+    {
+      "app_id": "oldies-10",
+      "artist": "Pink Floyd",
+      "title": "Wish You Were Here",
+      "album": "",
+      "duration": null
+    },
+    {
+      "app_id": "oldies-11",
+      "artist": "Eric Clapton",
+      "title": "Tears in Heaven",
+      "album": "",
+      "duration": null
+    },
+    {
+      "app_id": "oldies-12",
+      "artist": "Cat Stevens",
+      "title": "Father and Son",
+      "album": "",
+      "duration": null
     }
   ]
 }

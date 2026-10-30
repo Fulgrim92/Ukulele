@@ -82,7 +82,7 @@ export function validateLyrics(value){
  if(!value||typeof value!=='object'||Array.isArray(value)||Object.keys(value).length>250)throw Error('Invalid saved lyrics.');
  const result={};
  for(const [id,c] of Object.entries(value)){
-  if(!/^(loop|original|(axis|acoustic)-\d{1,3}|custom-[a-zA-Z0-9-]{1,90})$/.test(id)||!c||typeof c!=='object'||typeof c.text!=='string'||!['manual','bars','timed'].includes(c.mode)||!Number.isInteger(c.startBar)||c.startBar<0||c.startBar>4095||![1,2,4,8].includes(c.barsPerLine))throw Error('Invalid saved lyric settings.');
+  if(!/^(loop|original|(axis|acoustic|oldies)-\d{1,3}|custom-[a-zA-Z0-9-]{1,90})$/.test(id)||!c||typeof c!=='object'||typeof c.text!=='string'||!['manual','bars','timed'].includes(c.mode)||!Number.isInteger(c.startBar)||c.startBar<0||c.startBar>4095||![1,2,4,8].includes(c.barsPerLine))throw Error('Invalid saved lyric settings.');
   if(c.mode==='timed'&&!parseLrc(c.text).length)throw Error('Timed lyrics need LRC timestamps such as [00:12.50].');
   if(c.timingBpm!==undefined&&(!Number.isFinite(c.timingBpm)||c.timingBpm<20||c.timingBpm>300))throw Error('LRC reference tempo must be between 20 and 300 BPM.');
   lyricLines(c.text);result[id]={text:c.text,mode:c.mode,startBar:c.startBar,barsPerLine:c.barsPerLine,...(c.timingBpm!==undefined?{timingBpm:c.timingBpm}:{})};

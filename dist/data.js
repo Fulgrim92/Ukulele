@@ -7,6 +7,8 @@ export const CHORDS = {
 // Additional open-position ukulele shapes for the complete learning arrangements.
 // Pitch content is verified against g4 C4 E4 A4 in tests; repeated finger numbers indicate a barre.
 const extraShapes={
+ A7:{frets:[0,1,0,0],fingers:[0,1,0,0],label:'A dominant seventh',tip:'Index on C string, fret 1. Let g, E and A ring open. A small move with a warm dominant pull.'},
+ Dsus2:{frets:[2,2,0,0],fingers:[1,2,0,0],label:'D suspended second',tip:'Index on g2 and middle on C2. Keep E and A open for the suspended color.'},
  A:{frets:[2,1,0,0],fingers:[2,1,0,0],label:'A major',tip:'Middle finger on g2, index on C1. E and A stay open.'},
  Am7:{frets:[0,0,0,0],fingers:[0,0,0,0],label:'A minor seventh',tip:'All four strings open. Keep the fretting hand relaxed.'},
  Bb:{frets:[3,2,1,1],fingers:[3,2,1,1],label:'B-flat major',tip:'Barre E and A at fret 1 with your index. Middle on C2, ring on g3.'},

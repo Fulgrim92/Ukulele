@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 import {ACOUSTIC_SONGS} from '../dist/acoustic.js';
+import {OLDIES_SONGS} from '../dist/oldies.js';
 import {CATALOG,CHORDS,ORIGINAL} from '../dist/data.js';
 import {parseSheet,expandSections,validateBackup} from '../dist/core.js';
 import {prepareLyricCollection,validateLyrics} from '../dist/lyrics.js';
@@ -31,7 +32,7 @@ test('acoustic lyrics import, backup and practice-source selection survive valid
  assert.deepEqual(validateBackup(data),data);
 });
 test('download lists cover all new identities and preserve the legacy Axis list',async()=>{
- for(const [name,songs] of [['axis',CATALOG],['acoustic',ACOUSTIC_SONGS],['songbook',[...CATALOG,...ACOUSTIC_SONGS]]]){
+ for(const [name,songs] of [['axis',CATALOG],['acoustic',ACOUSTIC_SONGS],['songbook',[...CATALOG,...ACOUSTIC_SONGS,...OLDIES_SONGS]]]){
   const {tracks}=JSON.parse(await fs.readFile(new URL(`../lyrics_pipeline/examples/${name}-song-list.json`,import.meta.url),'utf8'));
   assert.deepEqual(tracks.map(s=>s.app_id),songs.map(s=>s.id));assert(tracks.every(t=>t.artist&&t.title&&!('lyrics' in t)));
  }
