@@ -4,7 +4,7 @@ from pathlib import Path
 import sqlite3
 import tempfile
 import unittest
-from lyrics_pipeline.cached_import import consensus, prepare, Track
+from lyrics_pipeline.cached_import import consensus, timing_consensus, prepare, Track
 
 
 def record(text, **changes):
@@ -13,6 +13,15 @@ def record(text, **changes):
 
 
 class CachedImportTests(unittest.TestCase):
+    def test_timestamp_consensus_never_silently_selects_a_conflicting_timeline(self):
+        track = Track('Synthetic Artist', 'Synthetic Song')
+        one = record('One chord', syncedLyrics='[00:02]One chord')
+        two = record('One chord', syncedLyrics='[00:02]One chord', id=2)
+        self.assertEqual(timing_consensus(track, [one, two], 'One chord'), '[00:02]One chord')
+        two['syncedLyrics'] = '[00:04]One chord'
+        self.assertIsNone(timing_consensus(track, [one, two], 'One chord'))
+        self.assertIsNone(timing_consensus(track, [one], 'Different words'))
+
     def test_equal_words_can_be_shared_without_claiming_recording_timing(self):
         text, candidates, _ = consensus(Track('Synthetic Artist', 'Synthetic Song'), [
             record('One small chord\nFour soft strings'),

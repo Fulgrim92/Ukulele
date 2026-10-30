@@ -1,7 +1,7 @@
 """Prepare a private app import from a user-supplied pipeline cache, offline.
 
 Only identical plain text across all compatible cached versions is accepted.
-Recording-specific timestamps are deliberately omitted. No network code runs.
+Optional unanimous LRC timing can be retained. No network code runs.
 """
 import argparse
 from collections import Counter
@@ -48,7 +48,19 @@ def consensus(track, records):
     return text, candidates, 'Compatible cached versions agree on plain text; recording timing is unverified.'
 
 
-def prepare(source, output):
+def timing_consensus(track, records, text):
+    expected = re.sub(r'\s+', ' ', text.strip()).casefold()
+    versions = set()
+    for record in records:
+        lrc = record.get('syncedLyrics')
+        if compatible(track, record) and usable_lrc(lrc):
+            words = re.sub(r'\s+', ' ', plain_from_lrc(lrc).strip()).casefold()
+            if words == expected:
+                versions.add(lrc.strip())
+    return next(iter(versions)) if len(versions) == 1 else None
+
+
+def prepare(source, output, *, include_timing=False):
     source, output = Path(source).resolve(), Path(output).resolve()
     if output == source or output.is_relative_to(source) or source.is_relative_to(output):
         raise ValueError('Use a separate sibling output folder to preserve the supplied collection.')
@@ -75,10 +87,14 @@ def prepare(source, output):
             status = 'success' if text else 'ambiguous' if candidates else 'missing'
             # This is a text consensus, not a claim to have selected a recording.
             record = {'artistName': track.artist, 'trackName': track.title, 'plainLyrics': text} if text else None
+            lrc = timing_consensus(track, records, text) if text and include_timing else None
+            if lrc:
+                record['syncedLyrics'] = lrc
             entry = write_result(output, track, status, record, candidates, reason)
             entry['input_status'] = original.get('status')
             entry['match_scope'] = 'cached_plain_text_consensus' if text else 'unresolved'
             entry['recording_timing_verified'] = False
+            entry['cached_timing_consensus'] = bool(lrc)
             entry['source_collection'] = str(source)
             entry.pop('match', None)
             atomic_write(output / entry['metadata_path'], json_text(entry))
@@ -95,7 +111,7 @@ def prepare(source, output):
                 writer.writerow({key: spreadsheet_safe(entry.get(key)) for key in fields})
         atomic_write(output / 'unresolved.csv', report.getvalue())
         atomic_write(output / 'README.txt', 'Prepared offline from your supplied cached responses.\n'
-                     'Only agreeing plain texts are included; no recording timestamps are asserted.\n'
+                     'Only agreeing texts are included. With --timing, unanimous cached LRC is retained.\n'
                      'In Four Strings choose Practice studio > Import lyric collection and select this folder.\n'
                      'TXT imports use manual lyric advance; approximate bar following is optional in Edit.\n'
                      'Existing saved lyrics are kept. See unresolved.csv for remaining songs.\n')
@@ -106,5 +122,6 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('source', type=Path)
     parser.add_argument('output', type=Path)
+    parser.add_argument('--timing', action='store_true', help='Retain LRC only when all matching cached timing versions agree')
     args = parser.parse_args()
-    print(json.dumps(prepare(args.source, args.output), sort_keys=True))
+    print(json.dumps(prepare(args.source, args.output, include_timing=args.timing), sort_keys=True))
