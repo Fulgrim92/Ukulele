@@ -3,6 +3,7 @@ import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {CATALOG,ORIGINAL} from '../dist/data.js';
 import {SONG_CHARTS} from '../dist/song-charts.js';
+import {ACOUSTIC_SONGS} from '../dist/acoustic.js';
 import {loadLyricFolder,prepareLyricCollection} from '../dist/lyrics.js';
 import {fitKaraoke} from '../mobile/karaoke-timing.js';
 import {packageAndroidApp} from '../mobile/package-app.mjs';
@@ -33,7 +34,7 @@ if(flag!==-1){
  }
  await walk(source);
  const charts=new Map(SONG_CHARTS.map(s=>[s.id,s]));
- const songs=[ORIGINAL,...CATALOG.map(s=>({...s,...charts.get(s.id)}))];
+ const songs=[ORIGINAL,...CATALOG.map(s=>({...s,...charts.get(s.id)})),...ACOUSTIC_SONGS];
  const {contents,warnings}=await loadLyricFolder(files,songs);
  const matches=prepareLyricCollection(contents,songs);
  const errors=matches.filter(x=>!x.config);

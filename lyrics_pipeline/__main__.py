@@ -29,12 +29,19 @@ def main(argv=None):
     acquire.add_argument("--refresh-cache", action="store_true", help="Discard cached API responses before this run")
     demo = commands.add_parser("demo", help="Run synthetic fixtures without any network access")
     demo.add_argument("--output", default="lyrics-output/synthetic-demo")
+    prepare = commands.add_parser("prepare", help="Prepare an app import from your existing local response cache, without network access")
+    prepare.add_argument("--source", required=True)
+    prepare.add_argument("--output", required=True)
+    prepare.add_argument("--timing", action="store_true", help="Retain only unanimous cached LRC timelines")
     scan = commands.add_parser("scan", help="Extract MP3/FLAC tags to CSV without network access")
     scan.add_argument("--library", action="append", required=True)
     scan.add_argument("--output", required=True, metavar="CSV")
     args = parser.parse_args(argv)
     try:
-        if args.command == "demo":
+        if args.command == "prepare":
+            from .cached_import import prepare as prepare_import
+            counts = prepare_import(args.source, args.output, include_timing=args.timing)
+        elif args.command == "demo":
             counts = run_demo(args.output)
         elif args.command == "scan":
             buffer = io.StringIO(newline="")

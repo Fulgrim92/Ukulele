@@ -24,7 +24,7 @@ Imported songs follow the same bar position as chord playback. Lines and an esti
 
 Where the supplied cache has one unanimous LRC timeline with the same words, its relative line phrasing is retained. Otherwise estimated phrase lengths use the supplied text. The build stretches the timeline across the vocal ranges of the complete teaching arrangement. This is **estimated practice alignment**, not a verified transcription of the recording: the app's adapted sections and repeats can differ from the source performance, and word durations are estimated rather than provided word timestamps. The UI states this limitation. No recording or vocal is bundled. The lyric editor retains reference-tempo and first-bar adjustments.
 
-Version 1.1 uses the same package ID and local signing key as version 1.0. Install over the earlier APK to retain progress; do not uninstall first. Unchanged manual lyric seeds upgrade automatically, while custom edits are preserved.
+Version 1.2 adds the twelve-song Acoustic collection and uses the same package ID and local signing key as earlier versions. Install over the earlier APK to retain progress; do not uninstall first. Unchanged manual lyric seeds upgrade automatically, while custom edits are preserved. New songs participate in in-app lyric lookup; results acquired in the Android app receive automatic estimated practice timing. The shipped private build retains the 35 existing imported texts; new commercial lyrics require your runtime lookup or local files.
 
 Downloaded text, generated web assets, signing keys, SDK paths and APKs are excluded from Git. An APK built with private lyrics contains those texts, so keep that APK private. The repository contains build code and original/public-domain or synthetic fixtures only.
 

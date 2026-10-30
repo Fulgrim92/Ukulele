@@ -1,6 +1,9 @@
-import {karaokeProgress} from './karaoke-timing.js';
+import {karaokeProgress,fitKaraoke} from './karaoke-timing.js';
 let metadata={};
 export function setKaraokeMetadata(value){metadata=value||{};}
+export function prepareLiveKaraoke(config,song){
+ const fitted=fitKaraoke(config,song);metadata[song.id]=fitted.metadata;return fitted.config;
+}
 export function karaokeNote(id,config,bpm){
  return metadata[id]?'Automatic practice timing · follows your tempo and section loops. Line and word timing is estimated for this learning arrangement.':`Imported LRC · follows your practice tempo at a ${config.timingBpm||bpm} BPM reference. Adjust in Edit if this arrangement differs.`;
 }

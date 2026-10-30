@@ -1,8 +1,12 @@
 import fs from 'node:fs';
 import {CATALOG} from '../dist/data.js';
 import {SONG_CHARTS} from '../dist/song-charts.js';
+import {ACOUSTIC_SONGS} from '../dist/acoustic.js';
 const charts=new Map(SONG_CHARTS.map(s=>[s.id,s]));
 const tracks=CATALOG.map(s=>{const c=charts.get(s.id)||{};return {app_id:s.id,artist:c.artistOverride||s.artist,title:c.titleOverride||s.title,album:'',duration:null};});
 fs.mkdirSync('lyrics_pipeline/examples',{recursive:true});
 fs.writeFileSync('lyrics_pipeline/examples/axis-song-list.json',JSON.stringify({tracks},null,2)+'\n');
-console.log(`Exported ${tracks.length} song identities. No lyrics included. Album/duration are filled automatically when using a local audio library instead.`);
+const acoustic=ACOUSTIC_SONGS.map(s=>({app_id:s.id,artist:s.artist,title:s.title,album:'',duration:null}));
+fs.writeFileSync('lyrics_pipeline/examples/acoustic-song-list.json',JSON.stringify({tracks:acoustic},null,2)+'\n');
+fs.writeFileSync('lyrics_pipeline/examples/songbook-song-list.json',JSON.stringify({tracks:[...tracks,...acoustic]},null,2)+'\n');
+console.log(`Exported ${tracks.length} Axis + ${acoustic.length} acoustic song identities. No lyrics included. Album/duration can be filled from local audio tags.`);

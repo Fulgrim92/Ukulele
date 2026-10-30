@@ -73,6 +73,6 @@ export function validateBackup(value) {
   }
   if(value.sessions.some(s=>!s||!/^\d{4}-\d{2}-\d{2}$/.test(s.date)||!Number.isFinite(s.seconds)||s.seconds<0||s.seconds>86400||typeof s.label!=='string'))throw Error('Invalid practice history.');
   const lyrics=validateLyrics(value.lyricsBySong);
-  const lastSource=typeof value.lastPracticeSource==='string'&&/^(loop|original|axis-\d{1,3}|custom-[a-zA-Z0-9-]{1,90})$/.test(value.lastPracticeSource)?value.lastPracticeSource:undefined;
+  const lastSource=typeof value.lastPracticeSource==='string'&&/^(loop|original|(axis|acoustic)-\d{1,3}|custom-[a-zA-Z0-9-]{1,90})$/.test(value.lastPracticeSource)?value.lastPracticeSource:undefined;
   return {version:1,completed:[...new Set(value.completed)],customSongs:value.customSongs.map(s=>({id:s.id,title:s.title,artist:s.artist,sheet:s.sheet})),sessions:value.sessions.map(s=>({date:s.date,seconds:s.seconds,label:s.label.slice(0,200)})),favorites:Array.isArray(value.favorites)?value.favorites.filter(x=>typeof x==='string'):[],lefty:value.lefty===true,goal:[5,10,15,20].includes(value.goal)?value.goal:10,...(lyrics?{lyricsBySong:lyrics}:{}),...(lastSource?{lastPracticeSource:lastSource}:{})};
 }

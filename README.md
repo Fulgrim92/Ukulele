@@ -10,6 +10,12 @@ Requires Node.js 20 or newer. From this folder run `npm start`, then open http:/
 
 The native Android project and personal APK build instructions are in [mobile/README.md](mobile/README.md). Run `npm ci`, then `npm run android:apk` with JDK 21 and Android SDK 36 configured. Optional local lyric imports can be included in a private build without committing their text to GitHub. The app bundles lessons, arrangements and recorded ukulele sounds for offline practice.
 
+## Acoustic collection
+
+The songbook now includes 12 independent 4/4 teaching arrangements beyond the 47-song medley: Ed Sheeran's Photograph, The A Team and Thinking Out Loud; Noah Rinker's Save My Soul, Red Bandana and Wherever I Go; Hozier's Like Real People Do, Work Song and Someone New; Vance Joy's Riptide; Noah Kahan's Stick Season; and Passenger's Let Her Go. Use the **Acoustic** songbook filter. Each song links its harmonic reference and identifies transposition, added shapes and simplifications. These are authored learning forms, not exact recording charts.
+
+`Pull-Acoustic-Lyrics.cmd` handles the 12-song shelf; `Pull-Songbook-Lyrics.cmd` covers all 59 catalogue songs. Both reuse `lyrics-output\axis` for existing progress, then prepare `lyrics-output\axis-karaoke` from agreeing cached text and timestamps. Import the prepared folder, or use `Update-Phone-Karaoke.cmd` to build a private APK with automatic practice timing. Missing/differing versions remain in `unresolved.csv`; lyric availability is not guaranteed. New commercial lyrics are not preloaded into source or the APK.
+
 ## Learn and practice
 
 - Eight guided lessons with knowledge checks and self-assessed playing exercises.

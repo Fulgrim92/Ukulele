@@ -8,9 +8,9 @@ Open a terminal in `H:\AI_Code\Guitar learning\four-strings`. The `lyrics.cmd` l
 
 ### Double-click download for the app's songbook
 
-Double-click **`Pull-Songbook-Lyrics.cmd`** in the project folder. It looks up all 47 catalogue entries, prefers synchronized LRC, falls back to TXT, and saves files under **`lyrics-output\axis`**. Run it again to resume; already completed files are checked and kept. The window stays open at the end when launched without arguments. Ctrl+C stops the run with completed work saved.
+Double-click **`Pull-Songbook-Lyrics.cmd`** in the project folder. It looks up all 59 catalogue entries (47 medley + 12 acoustic), prefers synchronized LRC, falls back to TXT, and reuses **`lyrics-output\axis`** for progress and cached responses. It then automatically prepares **`lyrics-output\axis-karaoke`**, recovering plain text where compatible versions agree and retaining LRC only when cached timing versions also agree. Run it again to resume. The window stays open at the end when launched without arguments. Ctrl+C stops the run with completed work saved.
 
-After downloading, open **Practice studio → Import lyric collection** in Four Strings and select the **`lyrics-output\axis`** folder. Review the matches and import them. This last folder selection is required by the browser's local-file permissions; downloading does not itself change your browser's saved app data.
+After downloading, open **Practice studio → Import lyric collection** in Four Strings and select the **`lyrics-output\axis-karaoke`** folder. Review the matches and import them. This last folder selection is required by the browser's local-file permissions; downloading does not itself change your browser's saved app data. **`Pull-Acoustic-Lyrics.cmd`** limits new requests to Ed Sheeran, Noah Rinker, Hozier and the other acoustic additions. **`Update-Phone-Karaoke.cmd`** prepares the existing cache offline and rebuilds the APK, using the installed Android build tools. It does not retrieve more songs; run a Pull launcher first.
 
 Missing lyrics and uncertain recording versions appear in **`unresolved.csv`**; the downloader does not guess a version or promise every song will be available. Supply album and duration in a separate song list when you need to identify a specific recording.
 
