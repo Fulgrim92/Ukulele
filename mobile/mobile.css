@@ -1,0 +1,5 @@
+html { overscroll-behavior-y: none; }
+body { padding-left: env(safe-area-inset-left); padding-right: env(safe-area-inset-right); }
+@media(max-width: 760px) {
+  .workspace { padding-bottom: calc(90px + env(safe-area-inset-bottom)); }
+}

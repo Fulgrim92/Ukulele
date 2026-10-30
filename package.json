@@ -1,0 +1,21 @@
+{
+  "name": "four-strings",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "android:prepare": "node scripts/prepare-android.mjs",
+    "android:sync": "npx cap sync android",
+    "android:apk": "powershell -NoProfile -File scripts/build-android.ps1",
+    "test": "node --test tests/*.test.mjs",
+    "check": "node --check dist/app.js && node --check dist/core.js && node --check dist/data.js && node --check dist/visuals.js && node --check dist/song-charts.js && node --check dist/practice.js && node --check dist/lyrics.js && node --check dist/lyric-sync.js && node --check dist/ukulele-audio.js && node --check dist/neck-diagram.js"
+  },
+  "dependencies": {
+    "@capacitor/android": "8.6.0",
+    "@capacitor/core": "8.6.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "8.6.0"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "tracks": [
+    {"id":"synthetic-ui-1","artist":"James Blunt","title":"You’re Beautiful","status":"success","format":"lrc","lyrics_path":"synthetic/demo.lrc"},
+    {"id":"synthetic-ui-2","artist":"Jason Mraz","title":"I’m Yours","status":"success","format":"txt","lyrics_path":"synthetic/demo.txt"}
+  ]
+}

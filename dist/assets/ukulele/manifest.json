@@ -1,0 +1,430 @@
+{
+  "instrument": "Kala KA-CE concert ukulele",
+  "creator": "François W. Nel",
+  "source": "https://github.com/francoiswnel/Ukulele",
+  "sourceCommit": "b27cf72d4916ebba6fcef0b21e3f6050bab2727e",
+  "license": "CC0-1.0",
+  "processing": "Leading silence trimmed, mono mix, DC removal, peak level matched, maximum 3.1s with 45ms end fade. No source code from the upstream patch is used.",
+  "samples": [
+    {
+      "stringIndex": 0,
+      "string": 4,
+      "fret": 0,
+      "midi": 67,
+      "file": "s4-f0.wav",
+      "sourceFile": "4-G4.wav",
+      "sourceSha256": "110cb5462103ab3bc4ec6dd3c8051e370bb3613f270fd742787487cae8147a3b",
+      "sha256": "1491aa5fabd7f3f53f5b1c2014074ec2183ff938010dc7bb4b80008d2b2edf9d",
+      "sampleRate": 44100,
+      "frames": 131430,
+      "duration": 2.9802721088435375,
+      "trimmedFrames": 0,
+      "sourceFormat": {
+        "encoding": 1,
+        "channels": 1,
+        "rate": 44100,
+        "bits": 24
+      },
+      "tuningCents": -11.529269256612718
+    },
+    {
+      "stringIndex": 0,
+      "string": 4,
+      "fret": 1,
+      "midi": 68,
+      "file": "s4-f1.wav",
+      "sourceFile": "4-Ab4.wav",
+      "sourceSha256": "69314118e1372c67f2714479796d4bc1182d8f543bb9bd84a155cabd9448021b",
+      "sha256": "6f1cce988d72f6afb1db1d515beb38c36a158d482ef06f36c5d5c5004b9a076d",
+      "sampleRate": 44100,
+      "frames": 107282,
+      "duration": 2.4326984126984126,
+      "trimmedFrames": 0,
+      "sourceFormat": {
+        "encoding": 1,
+        "channels": 1,
+        "rate": 44100,
+        "bits": 24
+      },
+      "tuningCents": 1.2517831796546488
+    },
+    {
+      "stringIndex": 0,
+      "string": 4,
+      "fret": 2,
+      "midi": 69,
+      "file": "s4-f2.wav",
+      "sourceFile": "4-A4.wav",
+      "sourceSha256": "24f2465d82bb1e18bb413693c2d7e3b72106ed7f6c091ff45edbff71e8218c7e",
+      "sha256": "f0211828275144e3ee4023b2979d26b64d2eb4b0b03faa718481514fd7d99211",
+      "sampleRate": 44100,
+      "frames": 107093,
+      "duration": 2.4284126984126986,
+      "trimmedFrames": 0,
+      "sourceFormat": {
+        "encoding": 1,
+        "channels": 1,
+        "rate": 44100,
+        "bits": 24
+      },
+      "tuningCents": 1.5653214543275749
+    },
+    {
+      "stringIndex": 0,
+      "string": 4,
+      "fret": 3,
+      "midi": 70,
+      "file": "s4-f3.wav",
+      "sourceFile": "4-Bb4.wav",
+      "sourceSha256": "484062c934778ab6a8fcebb4da6f69c5c5c6e920e3136e03a2d5bde3b0ddc059",
+      "sha256": "3851eca2a828ecc62f2836feec3aa6cfaad57e76e39caaba1214dc267dbdf5dd",
+      "sampleRate": 44100,
+      "frames": 99227,
+      "duration": 2.250045351473923,
+      "trimmedFrames": 0,
+      "sourceFormat": {
+        "encoding": 1,
+        "channels": 1,
+        "rate": 44100,
+        "bits": 24
+      },
+      "tuningCents": -3.092340341762664
+    },
+    {
+      "stringIndex": 0,
+      "string": 4,
+      "fret": 4,
+      "midi": 71,
+      "file": "s4-f4.wav",
+      "sourceFile": "4-B4.wav",
+      "sourceSha256": "acad28342c7af05beb4ee740743e00f549ce02ac172fa58bc85ba531af3b829b",
+      "sha256": "e22f5334e50b8bef79c9e59b7387dda14fb404c3b1e105802bef03366c7b3eea",
+      "sampleRate": 44100,
+      "frames": 96916,
+      "duration": 2.1976417233560093,
+      "trimmedFrames": 0,
+      "sourceFormat": {
+        "encoding": 1,
+        "channels": 1,
+        "rate": 44100,
+        "bits": 24
+      },
+      "tuningCents": 4.152130196017391
+    },
+    {
+      "stringIndex": 1,
+      "string": 3,
+      "fret": 0,
+      "midi": 60,
+      "file": "s3-f0.wav",
+      "sourceFile": "3-C4.wav",
+      "sourceSha256": "43674e775a64e39501dfb0021e079de73ccfb150ebd28a2be95d0f0aab8c63d7",
+      "sha256": "c8baec86db96015ce85c42c4d600ff97ae2daa8752b584fdddc8d3adce7e1d19",
+      "sampleRate": 44100,
+      "frames": 136710,
+      "duration": 3.1,
+      "trimmedFrames": 0,
+      "sourceFormat": {
+        "encoding": 1,
+        "channels": 1,
+        "rate": 44100,
+        "bits": 24
+      },
+      "tuningCents": 0.5135559957896569
+    },
+    {
+      "stringIndex": 1,
+      "string": 3,
+      "fret": 1,
+      "midi": 61,
+      "file": "s3-f1.wav",
+      "sourceFile": "3-Db4.wav",
+      "sourceSha256": "7fac8fd4a67eca6950f746d01bb8556c32d78d1589ef8b173fcce49b70034c6e",
+      "sha256": "2959acf5bd23defb9ba8711e44ccf45bbbabdd5a19a3448d127c1ee4a33a7264",
+      "sampleRate": 44100,
+      "frames": 136710,
+      "duration": 3.1,
+      "trimmedFrames": 0,
+      "sourceFormat": {
+        "encoding": 1,
+        "channels": 1,
+        "rate": 44100,
+        "bits": 24
+      },
+      "tuningCents": 16.882886392275715
+    },
+    {
+      "stringIndex": 1,
+      "string": 3,
+      "fret": 2,
+      "midi": 62,
+      "file": "s3-f2.wav",
+      "sourceFile": "3-D4.wav",
+      "sourceSha256": "d42a911b7d40f3c160864556bdee4389f131cd78371bc772cd7cc56fc0070452",
+      "sha256": "9d350eb6df68d3e67f54d719e24b52d204619be982a444fb67430a28b4dcdfaa",
+      "sampleRate": 44100,
+      "frames": 136710,
+      "duration": 3.1,
+      "trimmedFrames": 0,
+      "sourceFormat": {
+        "encoding": 1,
+        "channels": 1,
+        "rate": 44100,
+        "bits": 24
+      },
+      "tuningCents": 20.886801613181625
+    },
+    {
+      "stringIndex": 1,
+      "string": 3,
+      "fret": 3,
+      "midi": 63,
+      "file": "s3-f3.wav",
+      "sourceFile": "3-Eb4.wav",
+      "sourceSha256": "9117277049f019707967f0876e7e4a42ef311585ca962219a66857135c18dbbc",
+      "sha256": "111489d5a55d218c1b23f5f9bd4c4808b803331282a1099c4b70a4b61dd06e2b",
+      "sampleRate": 44100,
+      "frames": 136710,
+      "duration": 3.1,
+      "trimmedFrames": 0,
+      "sourceFormat": {
+        "encoding": 1,
+        "channels": 1,
+        "rate": 44100,
+        "bits": 24
+      },
+      "tuningCents": 13.294834086850335
+    },
+    {
+      "stringIndex": 1,
+      "string": 3,
+      "fret": 4,
+      "midi": 64,
+      "file": "s3-f4.wav",
+      "sourceFile": "3-E4.wav",
+      "sourceSha256": "5b2a8f36f7b73caddce1c7b10aeb9449d829ec8a540be080baa34f665ae642fe",
+      "sha256": "0661568c23d047b27566d65f06639035ae8954a937394aa86cececb25ca55e09",
+      "sampleRate": 44100,
+      "frames": 118904,
+      "duration": 2.696235827664399,
+      "trimmedFrames": 0,
+      "sourceFormat": {
+        "encoding": 1,
+        "channels": 1,
+        "rate": 44100,
+        "bits": 24
+      },
+      "tuningCents": 12.641129107477896
+    },
+    {
+      "stringIndex": 2,
+      "string": 2,
+      "fret": 0,
+      "midi": 64,
+      "file": "s2-f0.wav",
+      "sourceFile": "2-E4.wav",
+      "sourceSha256": "4555681369fc107c9e2ed5538c8bb1112186ac96adb6fc7130590713effee252",
+      "sha256": "52f956192301cd3a561b5820c8a0d72b1d90c74ffd6743c6b817957ca9be13a7",
+      "sampleRate": 44100,
+      "frames": 136710,
+      "duration": 3.1,
+      "trimmedFrames": 0,
+      "sourceFormat": {
+        "encoding": 1,
+        "channels": 1,
+        "rate": 44100,
+        "bits": 24
+      },
+      "tuningCents": 5.060464660125584
+    },
+    {
+      "stringIndex": 2,
+      "string": 2,
+      "fret": 1,
+      "midi": 65,
+      "file": "s2-f1.wav",
+      "sourceFile": "2-F4.wav",
+      "sourceSha256": "edd9ed885fdb67e4fe17cd896aae97570290cfc7bae15b3ed3965b1caca823af",
+      "sha256": "c5bffdce36180a72894b5b73f721616407a69b2ee6658c23f1cef55fb7da8d78",
+      "sampleRate": 44100,
+      "frames": 122220,
+      "duration": 2.7714285714285714,
+      "trimmedFrames": 0,
+      "sourceFormat": {
+        "encoding": 1,
+        "channels": 1,
+        "rate": 44100,
+        "bits": 24
+      },
+      "tuningCents": 19.355911812471252
+    },
+    {
+      "stringIndex": 2,
+      "string": 2,
+      "fret": 2,
+      "midi": 66,
+      "file": "s2-f2.wav",
+      "sourceFile": "2-Gb4.wav",
+      "sourceSha256": "cae7ad5d6d07fb3481c036d2338dd3af04402191ace8abb1e1f31077b667010f",
+      "sha256": "d6886e85a39f86757d3df8f85047c3e7311344cabb669cef5bb1b4964b8c6811",
+      "sampleRate": 44100,
+      "frames": 114652,
+      "duration": 2.5998185941043084,
+      "trimmedFrames": 0,
+      "sourceFormat": {
+        "encoding": 1,
+        "channels": 1,
+        "rate": 44100,
+        "bits": 24
+      },
+      "tuningCents": 14.593560554466357
+    },
+    {
+      "stringIndex": 2,
+      "string": 2,
+      "fret": 3,
+      "midi": 67,
+      "file": "s2-f3.wav",
+      "sourceFile": "2-G4.wav",
+      "sourceSha256": "ea4124fbd8a49a5bd6f671954cd65a9d485bce031e8f43b29a409ca36ac5bfc3",
+      "sha256": "2ec94f15b831ae1d3f31a8b9a23696700fdc43ebef187d0c7fd2f7e81b0866fe",
+      "sampleRate": 44100,
+      "frames": 86295,
+      "duration": 1.9568027210884353,
+      "trimmedFrames": 0,
+      "sourceFormat": {
+        "encoding": 1,
+        "channels": 1,
+        "rate": 44100,
+        "bits": 24
+      },
+      "tuningCents": 14.357478407843166
+    },
+    {
+      "stringIndex": 2,
+      "string": 2,
+      "fret": 4,
+      "midi": 68,
+      "file": "s2-f4.wav",
+      "sourceFile": "2-Ab4.wav",
+      "sourceSha256": "cf78f1a6f5daa8e64b9ae2b87aadb2a1f799c8d1b791fdc4f92961bba8bd6d1d",
+      "sha256": "ffab2059e542a07a964a87d9281b79bfd275bb46e3b88cab239cbf60623c1c03",
+      "sampleRate": 44100,
+      "frames": 83932,
+      "duration": 1.903219954648526,
+      "trimmedFrames": 0,
+      "sourceFormat": {
+        "encoding": 1,
+        "channels": 1,
+        "rate": 44100,
+        "bits": 24
+      },
+      "tuningCents": 17.384432195417975
+    },
+    {
+      "stringIndex": 3,
+      "string": 1,
+      "fret": 0,
+      "midi": 69,
+      "file": "s1-f0.wav",
+      "sourceFile": "1-A4.wav",
+      "sourceSha256": "2606c85b25fbf8c05a35e1be0b0b61299c568d745f462c3fcfe6ede6289233b2",
+      "sha256": "2d485f7d1690f859c98dc11ba9e7fb229c8862c9e78fd1486e27903e3d227f65",
+      "sampleRate": 44100,
+      "frames": 114435,
+      "duration": 2.5948979591836734,
+      "trimmedFrames": 60,
+      "sourceFormat": {
+        "encoding": 1,
+        "channels": 1,
+        "rate": 44100,
+        "bits": 24
+      },
+      "tuningCents": -2.4919331720782902
+    },
+    {
+      "stringIndex": 3,
+      "string": 1,
+      "fret": 1,
+      "midi": 70,
+      "file": "s1-f1.wav",
+      "sourceFile": "1-Bb4.wav",
+      "sourceSha256": "3bcace3ad26ad80b977a56512e8bc247fe9b8fc8811a27d67ad334ea4ea8c913",
+      "sha256": "03923a85b50f503e0f42cecd178eb14b9d17b720a447dd47e71028dc798f9f0f",
+      "sampleRate": 44100,
+      "frames": 98415,
+      "duration": 2.2316326530612245,
+      "trimmedFrames": 0,
+      "sourceFormat": {
+        "encoding": 1,
+        "channels": 1,
+        "rate": 44100,
+        "bits": 24
+      },
+      "tuningCents": 4.474135302764048
+    },
+    {
+      "stringIndex": 3,
+      "string": 1,
+      "fret": 2,
+      "midi": 71,
+      "file": "s1-f2.wav",
+      "sourceFile": "1-B4.wav",
+      "sourceSha256": "b559fd331b61a0b29b95342ac40913ea530d7083e511699580625d933de3ca02",
+      "sha256": "2a640a296297006b07682f85b1455b8814f9e7dd3fe7fa96b7907b513f956ab2",
+      "sampleRate": 44100,
+      "frames": 88935,
+      "duration": 2.0166666666666666,
+      "trimmedFrames": 0,
+      "sourceFormat": {
+        "encoding": 1,
+        "channels": 1,
+        "rate": 44100,
+        "bits": 24
+      },
+      "tuningCents": 2.3484865389623923
+    },
+    {
+      "stringIndex": 3,
+      "string": 1,
+      "fret": 3,
+      "midi": 72,
+      "file": "s1-f3.wav",
+      "sourceFile": "1-C5.wav",
+      "sourceSha256": "39929d6f3c23fb0a121a2852dc17b111f6cbec5c024f1e89e0623a985c7512dd",
+      "sha256": "618e596fbad8e18e9b610deebcb55963d0c62c183fd3f75613761a6d416e7f7a",
+      "sampleRate": 44100,
+      "frames": 100755,
+      "duration": 2.2846938775510206,
+      "trimmedFrames": 0,
+      "sourceFormat": {
+        "encoding": 1,
+        "channels": 1,
+        "rate": 44100,
+        "bits": 24
+      },
+      "tuningCents": -0.4690324181297602
+    },
+    {
+      "stringIndex": 3,
+      "string": 1,
+      "fret": 4,
+      "midi": 73,
+      "file": "s1-f4.wav",
+      "sourceFile": "1-Db5.wav",
+      "sourceSha256": "57bbed5a4a78332975a314813260efcb2e2a0d9443d855140cc6ad16c3296764",
+      "sha256": "0e01e6909b43a2b971344fd1f6a7fe0a48e0f0e640c00c175e487674b19391cd",
+      "sampleRate": 44100,
+      "frames": 75951,
+      "duration": 1.7222448979591836,
+      "trimmedFrames": 0,
+      "sourceFormat": {
+        "encoding": 1,
+        "channels": 1,
+        "rate": 44100,
+        "bits": 24
+      },
+      "tuningCents": 4.269308184079474
+    }
+  ]
+}

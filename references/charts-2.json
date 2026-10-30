@@ -1,0 +1,159 @@
+[
+  {
+    "id": "axis-17",
+    "practiceKey": "Am",
+    "bpm": 70,
+    "sourceUrl": "https://www.songsterr.com/a/wsa/marcy-playground-sex-and-candy-chords-s12250",
+    "sourceTitle": "Songsterr · Sex and Candy harmony",
+    "arrangementNote": "Independent acoustic practice arrangement in Am. Source B/G/F# verse harmony and B/G/A chorus are transposed down two semitones, with a minor tonic interpretation for the power-chord-based accompaniment. The E major verse tension and C/G chorus cadence are retained. Bar lengths, repeated sections and the final Am are authored for steady 4/4 practice; the recording's short bars and guitar fills are omitted. This is not an exact recording transcription.",
+    "sheet": "[Intro] x2\nAm Am F E :: Settle into a relaxed, even pulse.\n[Verse 1] x4\nAm Am F E\n[Chorus 1] x3\nAm F G G :: Open the strum and keep each chord clear.\n[Chorus cadence]\nC G Am F\nC G Am E\n[Verse 2] x4\nAm Am F E :: Return to a quieter sound.\n[Chorus 2] x3\nAm F G G\n[Chorus cadence]\nC G Am F\nC G Am E\n[Final chorus] x3\nAm F G G\n[Ending]\nC G Am F\nC G Am Am :: Let the final chord ring."
+  },
+  {
+    "id": "axis-18",
+    "practiceKey": "Am / C",
+    "originalKey": "Bm / D",
+    "bpm": 75,
+    "sourceUrl": "https://www.justinguitar.com/songs/men-at-work-down-under-chords-tabs-guitar-lesson-sg-128",
+    "sourceTitle": "JustinGuitar · Down Under verse and chorus timing",
+    "arrangementNote": "Independent ukulele accompaniment, transposed from Bm/D to Am/C. The verse begins on minor Am and the chorus on C; each two-bar phrase preserves the source's half-bar changes and the two one-beat turnaround chords. Am+Am+F+G means two beats of Am, then one each of F and G. Intro, flute-break repetitions and finite ending are authored practice choices; the flute melody and bass riff are not reproduced.",
+    "sheet": "[Intro] x4\nAm+G Am+Am+F+G :: Keep the offbeats light.\n[Verse 1] x4\nAm+G Am+Am+F+G\n[Chorus 1] x4\nC+G Am+Am+F+G :: Hear the brighter first chord.\n[Instrumental break] x4\nAm+G Am+Am+F+G\n[Verse 2] x4\nAm+G Am+Am+F+G\n[Chorus 2] x4\nC+G Am+Am+F+G\n[Instrumental break] x4\nAm+G Am+Am+F+G\n[Verse 3] x4\nAm+G Am+Am+F+G\n[Final chorus] x8\nC+G Am+Am+F+G :: Keep the quick F-to-G change inside the bar.\n[Ending]\nAm Am :: Finish together on the minor tonic."
+  },
+  {
+    "id": "axis-19",
+    "titleOverride": "The Funny Things You Do (AFV theme)",
+    "artistOverride": "Jill Colucci · music by Dan Slider",
+    "practiceKey": "C",
+    "originalKey": "E (original vocal theme)",
+    "bpm": 75,
+    "sourceUrl": "https://www.khmerchords.com/en/misc-television/americas-funniest-home-videos-theme-4288761",
+    "sourceTitle": "KhmerChords · America's Funniest Home Videos theme harmony",
+    "identitySourceUrl": "https://afhv.fandom.com/wiki/The_Funny_Things_You_Do",
+    "arrangementNote": "A finite arrangement of the short television theme, not an invented three-minute pop song. The original vocal theme is The Funny Things You Do, performed by Jill Colucci, with music by Dan Slider and lyrics by Colucci/Stewart Harris. Source harmony is transposed from E to C; the E major, D7 and Dm chords are deliberately retained instead of forcing four chords. Bar lengths, brief intro and ending are authored for 4/4 practice; later television versions differ.",
+    "sheet": "[Short intro]\nF F G G :: Count four steady beats per bar.\n[Theme verse 1]\nC C E E\nF F D7 D7 :: Prepare the new D7 shape before changing.\n[Theme refrain 1]\nC G C F\nC G C C\nDm Dm C G\n[Theme verse 2]\nC C E E\nF F D7 D7\n[Theme refrain 2]\nC G C F\nC G C C\nDm Dm C G\n[Short ending]\nF G C C :: Let the final C settle."
+  },
+  {
+    "id": "axis-20",
+    "practiceKey": "C",
+    "bpm": 75,
+    "sourceUrl": "https://ukutabs.com/j/jack-johnson/taylor/",
+    "sourceTitle": "UkuTabs · Taylor chord reference",
+    "arrangementNote": "Independent relaxed strumming arrangement using the source's simplified C–C–Am–F accompaniment. Walking-bass details and the lead-guitar introduction are omitted. Named verse and chorus blocks, one chord per full bar, repetitions and a finite C ending are authored for learning rather than synchronized to the recording. This simplified source version uses three chord shapes.",
+    "sheet": "[Strummed intro] x2\nC C Am F :: Start gently; keep your wrist loose.\n[Verse 1] x4\nC C Am F\n[Chorus 1] x4\nC C Am F :: Use a slightly fuller strum.\n[Verse 2] x4\nC C Am F\n[Chorus 2] x4\nC C Am F\n[Verse 3] x4\nC C Am F :: Return to the quieter verse feel.\n[Final refrain] x4\nC C Am F\n[Outro] x2\nC C Am F\n[Ending]\nC C :: Release the last strum slowly."
+  },
+  {
+    "id": "axis-21",
+    "practiceKey": "C",
+    "originalKey": "F#",
+    "bpm": 65,
+    "sourceUrl": "https://guitartuna.com/chords/2-become-1-spice-girls-easy-guitar-chords-61dfc238f8b1eca8bfd967e9",
+    "sourceTitle": "GuitarTuna · 2 Become 1 section harmony",
+    "arrangementNote": "Independent ballad accompaniment transposed from F# to C. Inversions and extensions are reduced to simple roots, while the verse Dm, pre-chorus Em and borrowed Bb/Eb chorus colours are retained. This is intentionally more than a four-chord loop. Bar lengths, instrumental length, chorus repetitions and ending are authored for steady 4/4 learning; the guitar solo and vocal melody are omitted.",
+    "sheet": "[Intro] x2\nAm G C Dm :: Let every chord ring clearly.\n[Verse 1] x2\nAm G C Dm\nAm G C G\n[Pre-chorus 1] x2\nF Em Dm G :: Keep the change into Dm relaxed.\n[Chorus 1] x2\nC G F G\n[Chorus cadence]\nBb C Eb+F C :: These borrowed major chords add colour.\n[Verse 2] x2\nAm G C Dm\nAm G C G\n[Pre-chorus 2] x2\nF Em Dm G\n[Chorus 2] x2\nC G F G\n[Chorus cadence]\nBb C Eb+F C\n[Instrumental] x2\nAm G F F\n[Final chorus] x4\nC G F G\n[Ending]\nBb C Eb+F C\nC C :: Finish on a soft C."
+  },
+  {
+    "id": "axis-22",
+    "practiceKey": "C",
+    "originalKey": "A",
+    "bpm": 80,
+    "sourceUrl": "https://ukutabs.com/a/a-ha/take-on-me/",
+    "sourceTitle": "UkuTabs · Take On Me section harmony",
+    "arrangementNote": "Independent acoustic practice arrangement transposed from A to C. The Dm–G verse entrance and Em–Bb bridge distinguish the full song from the C–G–Am–F chorus. The synth hook is replaced by strummed harmony. Bar lengths, repeats and finite ending are authored for 4/4 practice, not an exact recording chart; use a slow tempo before approaching the original speed.",
+    "sheet": "[Strummed intro] x2\nDm G C F :: Replace the synth hook with even chords.\n[Intro turnaround]\nDm G Dm G\n[Verse 1]\nDm G C F\nDm G C F\nDm G Am F\n[Chorus 1] x4\nC G Am F :: Keep the pulse steady through the high-energy section.\n[Verse 2]\nDm G C F\nDm G C F\nDm G Am F\n[Chorus 2] x4\nC G Am F\n[Bridge]\nEm Bb Em Bb\nDm G Dm G :: Take extra time to prepare Bb.\n[Instrumental] x2\nDm G C F\n[Verse 3]\nDm G C F\nDm G C F\nDm G Am F\n[Final chorus] x4\nC G Am F\n[Ending]\nF G C C :: Resolve to C instead of fading."
+  },
+  {
+    "id": "axis-23",
+    "practiceKey": "C",
+    "originalKey": "F# / Gb",
+    "bpm": 80,
+    "sourceUrl": "https://ukutabs.com/g/green-day/when-i-come-around/",
+    "sourceTitle": "UkuTabs · When I Come Around section harmony",
+    "arrangementNote": "Independent ukulele arrangement transposed from Gb to C. Verse and instrumental use the familiar four chords; the chorus adds Dm before F. Half-bar changes approximate the compact rhythm without copying the guitar riff. Section repetitions, dynamics and a finite C ending are authored practice choices rather than a recording-synchronized transcription.",
+    "sheet": "[Intro] x2\nC+G Am+F :: Use small, controlled down-strums.\n[Verse 1] x8\nC+G Am+F\n[Chorus 1] x2\nDm Dm F F :: Hold each chorus chord longer than the verse changes.\n[Interlude] x2\nC+G Am+F\n[Verse 2] x8\nC+G Am+F\n[Chorus 2] x2\nDm Dm F F\n[Solo accompaniment] x4\nC+G Am+F\n[Final chorus] x2\nDm Dm F F\n[Outro] x4\nC+G Am+F\n[Ending]\nC C :: Let the last chord ring cleanly."
+  },
+  {
+    "id": "axis-24",
+    "practiceKey": "Am",
+    "bpm": 80,
+    "sourceUrl": "https://ukutabs.com/e/eagle-eye-cherry/save-tonight/",
+    "sourceTitle": "UkuTabs · Save Tonight chord and section reference",
+    "arrangementNote": "Independent complete accompaniment using the source's Am–F–C–G harmony. Each plus-separated pair shares a four-beat bar, preserving two chords per bar. The named section lengths, instrumental repeats and finite Am ending are authored for learning; the recording's fades, guitar figures and exact vocal timing are not transcribed.",
+    "sheet": "[Intro] x4\nAm+F C+G :: Give each chord two beats.\n[Verse 1] x8\nAm+F C+G\n[Chorus 1] x4\nAm+F C+G :: Open the strum without rushing.\n[Verse 2] x4\nAm+F C+G\n[Chorus 2] x4\nAm+F C+G\n[Instrumental] x4\nAm+F C+G\n[Return verse] x4\nAm+F C+G :: Ease back before the final build.\n[Final chorus] x8\nAm+F C+G\n[Outro] x4\nAm+F C+G\n[Ending]\nAm Am :: A clear ending replaces the recorded fade."
+  },
+  {
+    "id": "axis-25",
+    "practiceKey": "C verse / Bb chorus",
+    "originalKey": "B verse / A chorus",
+    "bpm": 75,
+    "sourceUrl": "https://ukutabs.com/t/toto/africa/",
+    "sourceTitle": "UkuTabs · Africa harmonic reference",
+    "arrangementNote": "Independent strummed arrangement, transposed up one semitone from the source. This song changes harmonic centres: the verse centres on C and the chorus on Bb. Dm7 is reduced to Dm, while Em, E7, Bb, Gm and Eb remain because the full song cannot honestly be represented by four beginner chords alone. Bar lengths, instrumental duration and final Dm resolution are authored for 4/4 practice; syncopation, fills and the original fade are simplified.",
+    "sheet": "[Intro] x4\nBb Dm :: Establish the repeating introduction quietly.\n[Verse 1]\nC Em Am C\nBb Dm Am+Bb Dm\nC Em Am C\nBb Dm Am+Bb Dm\nC Em Am C\nBb Dm Am+Bb Dm\nC E7 Am Bb+Dm\n[Chorus 1] x3\nGm Eb Bb F :: The chorus moves to a different major centre.\n[Chorus turnaround]\nGm Eb Bb Dm+F\nGm Bb Dm Dm\n[Verse 2]\nC Em Am C\nBb Dm Am+Bb Dm\nC Em Am C\nBb Dm Am+Bb Dm\nC E7 Am Bb+Dm\n[Chorus 2] x3\nGm Eb Bb F\n[Chorus turnaround]\nGm Eb Bb Dm+F\nGm Bb Dm Dm\n[Instrumental] x4\nBb Dm\n[Final chorus] x4\nGm Eb Bb F\n[Outro] x4\nBb Dm\n[Ending]\nDm Dm :: Let the final Dm settle."
+  },
+  {
+    "id": "axis-26",
+    "practiceKey": "Am",
+    "bpm": 65,
+    "sourceUrl": "https://ukutabs.com/b/beyonce/if-i-were-a-boy/",
+    "sourceTitle": "UkuTabs · If I Were a Boy section harmony",
+    "arrangementNote": "Independent ballad accompaniment transposed from the source's Em shapes to Am. Added ninths are reduced to plain F, and the bridge's Dm is retained. Section lengths, bar durations and the final Am ending are authored for even 4/4 practice; the original vocal phrasing, guitar arpeggios and recording key are not reproduced.",
+    "sheet": "[Intro]\nAm F C G :: Start with one gentle strum per chord.\n[Verse 1] x4\nAm F C G\n[Chorus 1] x4\nAm F C G :: Let the accompaniment grow gradually.\n[Chorus hold]\nF F\n[Verse 2] x4\nAm F C G\n[Chorus 2] x4\nAm F C G\n[Transition]\nF Am Dm Dm\n[Bridge]\nF C G Dm\nF Am G Dm\nF Am G F :: Keep the bridge measured and quiet.\n[Final chorus] x4\nAm F C G\n[Outro]\nAm F C G\nAm Am :: Finish softly on the minor chord."
+  },
+  {
+    "id": "axis-27",
+    "practiceKey": "Am",
+    "originalKey": "F#m",
+    "bpm": 80,
+    "sourceUrl": "https://ukutabs.com/k/kelly-clarkson/behind-these-hazel-eyes/",
+    "sourceTitle": "UkuTabs · Behind These Hazel Eyes section harmony",
+    "arrangementNote": "Independent acoustic arrangement transposed from F#m to Am. The verse's four-chord cycle, F–Am pre-chorus motion, Dm chorus colour and contrasting bridge are retained. Bar lengths, instrumental transition and chorus repeats are authored for a slower 4/4 learning version rather than an exact transcription of the full-speed recording.",
+    "sheet": "[Intro] x2\nAm F C G :: Start below the recording's speed.\n[Verse 1] x4\nAm F C G\n[Pre-chorus 1]\nF Am F G\n[Chorus 1]\nAm F C G\nAm F C G\nAm F Dm Dm\nAm F C G :: Listen for the extra Dm colour.\n[Verse 2] x4\nAm F C G\n[Pre-chorus 2]\nF Am F G\n[Chorus 2]\nAm F C G\nAm F C G\nAm F Dm Dm\nAm F C G\n[Bridge]\nDm F Am Am\nDm G Am Am\nDm F Am Am\nF F G G\n[Instrumental transition]\nAm F C G\nAm F G G\n[Final chorus] x2\nAm F C G\nAm F C G\nAm F Dm Dm\nAm F C G\n[Ending]\nAm Am :: A sustained minor chord closes this version."
+  },
+  {
+    "id": "axis-28",
+    "practiceKey": "Am",
+    "bpm": 80,
+    "sourceUrl": "https://ukutabs.com/j/jason-derulo/in-my-head/",
+    "sourceTitle": "UkuTabs · In My Head harmony and section reference",
+    "arrangementNote": "Independent complete accompaniment transposed from Dm–Bb–F–C to Am–F–C–G. The source identifies the repeating harmony throughout; our section labels, bar lengths, breakdown dynamics, repeats and final Am are authored for practice. The source's disputed Cm ending is not used. This is a finite acoustic arrangement, not an exact recreation of the production or recording timing.",
+    "sheet": "[Intro]\nAm F C G :: Keep the upstrokes light.\n[Verse 1] x4\nAm F C G\n[Pre-chorus 1] x2\nAm F C G :: Increase the strumming energy gradually.\n[Chorus 1] x4\nAm F C G\n[Verse 2] x4\nAm F C G\n[Pre-chorus 2] x2\nAm F C G\n[Chorus 2] x4\nAm F C G\n[Breakdown] x2\nAm F C G :: Return to one strum per bar.\n[Final build] x2\nAm F C G\n[Final chorus] x8\nAm F C G\n[Ending]\nAm Am :: Resolve clearly rather than fading."
+  },
+  {
+    "id": "axis-29",
+    "practiceKey": "Am",
+    "bpm": 80,
+    "sourceUrl": "https://mychords.net/the-smashing-pumpkins/272729-the-smashing-pumpkins-bullet-with-butterfly-wings.html",
+    "sourceTitle": "MyChords · Bullet with Butterfly Wings section harmony",
+    "arrangementNote": "Independent ukulele chord accompaniment based on the source's B-position verse and chorus movements, shifted to Am. The original guitar uses half-step-down tuning; this practice sheet does not reproduce its sound, riff or voicing. Power chords are interpreted as Am/F/C/G/Dm full chords, and the verse's changing bass is simplified. Bar lengths, transition, dynamics and finite ending are authored for steady 4/4 learning, not exact recording timing.",
+    "sheet": "[Quiet intro] x2\nAm+G Am+F Dm Am+G :: Use small, controlled strums.\n[Verse 1] x4\nAm+G Am+F Dm Am+G\n[Pre-chorus 1] x2\nAm+G Am+F Dm Am+G\n[Chorus 1] x4\nAm F C G\nDm F :: Keep the chord changes strong without speeding up.\n[Verse 2] x4\nAm+G Am+F Dm Am+G\n[Pre-chorus 2] x2\nAm+G Am+F Dm Am+G\n[Chorus 2] x4\nAm F C G\nDm F\n[Instrumental contrast] x2\nF Am G C\n[Quiet chorus] x2\nAm F C G :: Reduce the volume before the final build.\n[Final chorus] x4\nAm F C G\nDm F\n[Ending]\nF G Am Am :: End with a clear sustained Am."
+  },
+  {
+    "id": "axis-30",
+    "practiceKey": "Am",
+    "originalKey": "F#m",
+    "bpm": 70,
+    "sourceUrl": "https://ukutabs.com/j/joan-osborne/one-of-us/",
+    "sourceTitle": "UkuTabs · One of Us section harmony",
+    "arrangementNote": "Independent strummed arrangement transposed from F#m to Am. The Am–F–C–G verse/chorus family, F–C–G pre-chorus and G–Am–C outro movement are retained. Intro length, bar durations, instrumental repeats and finite Am ending are authored for 4/4 learning; the original instrumental opening and vocal melody are omitted.",
+    "sheet": "[Strummed intro] x4\nAm F C G :: Establish a relaxed pulse.\n[Verse 1] x4\nAm F C G\n[Pre-chorus 1] x2\nF C G G\n[Pre-chorus turnaround]\nF F G G\n[Chorus 1] x4\nAm F C G :: Give the chorus a little more space.\n[Verse 2] x4\nAm F C G\n[Pre-chorus 2] x2\nF C G G\n[Pre-chorus turnaround]\nF F G G\n[Chorus 2] x4\nAm F C G\n[Extended refrain] x3\nG Am C G\n[Pre-chorus return] x2\nF C G G\n[Final chorus] x4\nAm F C G\n[Outro] x3\nG Am C G\n[Ending]\nAm Am :: Let the last chord ring gently."
+  },
+  {
+    "id": "axis-31",
+    "practiceKey": "C",
+    "originalKey": "F",
+    "bpm": 75,
+    "sourceUrl": "https://www.rockoutschool.com/assets/ugc/docs/avril_complicated.pdf_pdfpdf.pdf",
+    "sourceTitle": "Rock Out! Music School · Complicated section harmony",
+    "arrangementNote": "Independent accompaniment transposed from F to C. Verse C–Am–F–G, pre-chorus F–Am–F–G and half-bar chorus changes are retained, including Dm as the chorus contrast rather than hiding it inside a four-chord loop. Intro, exact section repeats, finite C ending and slower tempo are authored learning choices. No lyrics or guitar parts from the source are reproduced.",
+    "sheet": "[Intro] x4\nAm+F C+G :: Count two beats for each chord.\n[Verse 1] x2\nC Am F G\n[Pre-chorus 1]\nF Am F G\n[Chorus 1]\nAm+F C+G Am+F C+G\nAm+F C+G Dm F :: Hold Dm and F for full bars.\n[Verse 2] x2\nC Am F G\n[Pre-chorus 2]\nF Am F G\n[Chorus 2]\nAm+F C+G Am+F C+G\nAm+F C+G Dm F\n[Interlude]\nC Am F G\n[Short return verse]\nC Am F G :: Make this verse softer than the chorus.\n[Pre-chorus return]\nF Am F G\n[Final chorus] x2\nAm+F C+G Am+F C+G\nAm+F C+G Dm F\n[Ending]\nC C :: Finish with a sustained C."
+  },
+  {
+    "id": "axis-32",
+    "practiceKey": "Am / Dm",
+    "bpm": 75,
+    "sourceUrl": "https://www.guitartabs.cc/tabs/o/offspring/self_esteem_6_crd.html",
+    "sourceTitle": "GuitarTabs · Self Esteem chord-section reference",
+    "additionalSourceUrl": "https://www.fender.com/play/lessons/self-esteem-learn-it-bridge-full-song",
+    "arrangementNote": "Independent acoustic arrangement retaining the Am–F–C–G family and Dm–Bb–F–C contrasting bridge. Guitar power chords are interpreted as simple major/minor ukulele chords. The unaccompanied vocal pickup is replaced by a strummed intro. Plus-separated chords share a bar; section lengths, repeats and final Am are authored practice choices. This is not a copy of the recording's riffs, exact rhythm or full production.",
+    "sheet": "[Strummed intro] x2\nAm+F C+G :: Use a firm but relaxed pulse.\n[Verse 1] x8\nAm+F C+G\n[Chanted refrain 1] x4\nAm+F C+G :: Let the sound open up.\n[Verse 2] x4\nAm+F C+G\n[Chanted refrain 2] x4\nAm+F C+G\n[Contrast section] x3\nDm Bb F C :: This section moves beyond the four beginner chords.\n[Contrast turnaround]\nDm Bb C G\n[Verse 3] x8\nAm+F C+G\n[Chanted refrain 3] x8\nAm+F C+G\n[Final contrast] x3\nDm Bb F C\n[Final turnaround]\nDm Bb C G\n[Ending]\nAm Am :: Resolve firmly and let the last chord ring."
+  }
+]
